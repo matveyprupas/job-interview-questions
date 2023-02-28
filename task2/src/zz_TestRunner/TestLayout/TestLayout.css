@@ -1,0 +1,33 @@
+.testLayout {
+  display: flex;
+}
+
+.testLayout .requirments {
+  width: 25%;
+  border-right: 3px solid #eeeeee;
+  min-height: 100vh;
+}
+
+.testLayout .view {
+  flex: 1;
+}
+
+.testLayout .logo {
+  margin-top: 2rem;
+}
+
+.testLayout .title {
+  font-size: 3em;
+  color: #0e141e;
+}
+
+.testLayout .description {
+  padding: 2rem;
+  padding-top: 0;
+  color: #576871;
+}
+
+.testLayout .flex-center {
+  display: flex;
+  justify-content: center;
+}
