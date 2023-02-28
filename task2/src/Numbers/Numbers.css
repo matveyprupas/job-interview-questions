@@ -1,0 +1,39 @@
+.numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.numbers .count {
+  margin-bottom: 2rem;
+  text-align: center;
+  display: flex;
+  margin-left: 10rem;
+}
+.numbers .count h3 {
+  line-height: 8.6rem;
+  margin-right: 1rem;
+}
+.numbers .count h1 {
+  font-size: 5em;
+  margin-top: 2rem;
+}
+.numbers .buttons button {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: none;
+  margin: 0 2rem;
+  font-size: 5em;
+  box-shadow: 0 4px 32px 0 rgba(10, 14, 29, 0.02),
+    0 8px 64px 0 rgba(10, 14, 29, 0.08);
+  cursor: pointer;
+  background-color: #0394fa;
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.numbers .buttons button:hover {
+  background-color: #0d5ebf;
+  transform: scale(1.05);
+}

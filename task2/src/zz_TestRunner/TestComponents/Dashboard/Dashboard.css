@@ -1,0 +1,16 @@
+.dashboard {
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.tiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}

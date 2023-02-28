@@ -1,0 +1,16 @@
+.mortyDescription {
+  word-wrap: break-word;
+}
+
+.mortyDescription .link {
+  text-decoration: none;
+}
+
+.mortyDescription .box {
+  margin-top: 1rem;
+  background-color: #c8c8c81a;
+  border: 1px solid #eeeeee;
+  padding: 1rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
